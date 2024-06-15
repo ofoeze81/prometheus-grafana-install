@@ -11,6 +11,9 @@ scrape_configs:
     ec2_sd_configs:
       - region: us-east-1        
         port: 9100
+  - job_name: 'node'
+    ec2_sd_configs:
       - region: us-west-2       
-        port: 9100   
+        port: 9100
+   
         
